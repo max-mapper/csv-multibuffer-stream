@@ -1,0 +1,16 @@
+{
+  "name": "csv-multibuffer-stream",
+  "version": "0.0.1",
+  "description": "Transform stream that accepts raw CSV data and emits the rows as [multibuffers](http://npmjs.org/multibuffer).",
+  "main": "index.js",
+  "author": "max ogden",
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/csv-multibuffer-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/csv-multibuffer-stream/issues"
+  },
+  "homepage": "https://github.com/maxogden/csv-multibuffer-stream"
+}
