@@ -2,6 +2,8 @@
 
 Transform stream that accepts raw CSV data and emits the rows as [multibuffers](http://npmjs.org/multibuffer).
 
+[![NPM](https://nodei.co/npm/csv-multibuffer-stream.png)](https://nodei.co/npm/csv-multibuffer-stream/)
+
 ## usage
 
 ```js
