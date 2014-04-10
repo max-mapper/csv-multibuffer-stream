@@ -12,5 +12,10 @@
   "bugs": {
     "url": "https://github.com/maxogden/csv-multibuffer-stream/issues"
   },
-  "homepage": "https://github.com/maxogden/csv-multibuffer-stream"
+  "homepage": "https://github.com/maxogden/csv-multibuffer-stream",
+  "dependencies": {
+    "through": "^2.3.4",
+    "multibuffer": "^2.2.1",
+    "binary-csv": "^0.1.7"
+  }
 }
