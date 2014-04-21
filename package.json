@@ -17,5 +17,15 @@
     "through": "^2.3.4",
     "multibuffer": "^2.2.1",
     "binary-csv": "^0.1.7"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.4.5",
+    "tape": "^2.12.3"
   }
 }
