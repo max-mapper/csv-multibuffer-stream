@@ -5,7 +5,7 @@ var binaryCSV = require('binary-csv')
 module.exports = function(onRow, opts) {
   if (onRow && typeof onRow === 'object') opts = onRow
   if (!opts) opts = {}
-  var csv = binaryCSV(opts.lineDelim, opts.cellDelim)
+  var csv = binaryCSV(opts) // pass options object directly to binaryCSV
   return through(write)
   
   function write(buf) {
