@@ -1,6 +1,6 @@
 {
   "name": "csv-multibuffer-stream",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Transform stream that accepts raw CSV data and emits the rows as [multibuffers](http://npmjs.org/multibuffer).",
   "main": "index.js",
   "author": "max ogden",
